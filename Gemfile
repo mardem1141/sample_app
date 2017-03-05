@@ -51,6 +51,10 @@ group :development do
   gem 'web-console', '>= 3.3.0'
 end
 
+group :doc do
+  gem 'sdoc',  require: false
+end
+
 group :production do
 
   gem 'rails_12factor'
